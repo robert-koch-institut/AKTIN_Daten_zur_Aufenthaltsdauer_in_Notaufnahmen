@@ -1,0 +1,72 @@
+{
+  "title": "AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen",
+  "description": "<p>Die Belastung von Notaufnahmen hängt von verschiedenen Faktoren ab, wie z.B. der Anzahl der Patienti:innen, der Schwere ihrer Fälle, der Personalsituation und der Kapazität der Intensivbetten. Die durchschnittliche Aufenthaltsdauer in der Notaufnahme kann als Indikator für die Belastungssituation herangezogen werden.<br>\nDer Datensatz „AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen“ enthält aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister. Zur Erfassung der speziellen Belastungssituation während der COVID-19-Pandemie werden im vorliegenden Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patienti:innen in den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie verglichen.</p>\n",
+  "creators": [
+    {
+      "name": "AKTIN-Notaufnahmeregister",
+      "affiliation": "Robert Koch-Institut"
+    },
+    {
+      "name": "Robert Koch-Institut",
+      "affiliation": "Robert Koch-Institut"
+    }
+  ],
+  "keywords": [
+    "Germany",
+    "Open Data",
+    "RKI",
+    "Deutschland",
+    "AKTIN",
+    "Emergency Treatments",
+    "Notaufnahmesurveillance",
+    "Sentinel-Ueberwachung",
+    "Sentinel Surveillance",
+    "Notfallambulanz, Krankenhaus-",
+    "Hospital Emergency Services",
+    "Krankenhausaufenthaltsdauer",
+    "Length of Stay"
+  ],
+  "publication_date": "2023-03-09",
+  "version": "2023-03-09",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "subjects": [
+    {
+      "term": "Gesundheitsberichterstattung",
+      "identifier": "info:ddc/22/de//614.42"
+    },
+    {
+      "term": "Public health surveillance",
+      "identifier": "info:ddc/22/eng//614.42"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Readme.md",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/[Dokumentation]_AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen.pdf",
+      "resource_type": "publication-report"
+    },
+    {
+      "relation": "isDescribedBy",
+      "identifier": "https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/",
+      "resource_type": "other"
+    }
+  ]
+}
