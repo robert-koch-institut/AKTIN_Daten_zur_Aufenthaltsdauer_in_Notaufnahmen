@@ -14,7 +14,7 @@ abstract: >-
   Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patienti:innen in
   den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie
   verglichen.
-date-released: '2023-03-16'
+date-released: '2023-03-23'
 keywords:
   - Germany
   - Open Data
