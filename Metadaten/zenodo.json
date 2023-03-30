@@ -1,10 +1,10 @@
 {
   "title": "AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen",
-  "description": "<p>Die Belastung von Notaufnahmen hängt von verschiedenen Faktoren ab, wie z.B. der Anzahl der Patienti:innen, der Schwere ihrer Fälle, der Personalsituation und der Kapazität der Intensivbetten. Die durchschnittliche Aufenthaltsdauer in der Notaufnahme kann als Indikator für die Belastungssituation herangezogen werden.<br>\nDer Datensatz „AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen“ enthält aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister. Zur Erfassung der speziellen Belastungssituation während der COVID-19-Pandemie werden im vorliegenden Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patienti:innen in den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie verglichen.</p>\n",
+  "description": "<p>Die Belastung von Notaufnahmen hängt von verschiedenen Faktoren ab, wie z.B. der Anzahl der Patienti:innen, der Schwere ihrer Fälle, der Personalsituation und der Kapazität der Intensivbetten. Die durchschnittliche Aufenthaltsdauer in der Notaufnahme kann als Indikator für die Belastungssituation herangezogen werden.<br>Der Datensatz „AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen“ enthält aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister. Zur Erfassung der speziellen Belastungssituation während der COVID-19-Pandemie werden im vorliegenden Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patienti:innen in den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie verglichen.</p>",
   "creators": [
     {
       "name": "AKTIN-Notaufnahmeregister",
-      "affiliation": "Robert Koch-Institut"
+      "affiliation": "AKTIN-Notaufnahmeregister"
     },
     {
       "name": "Robert Koch-Institut",
@@ -26,8 +26,8 @@
     "Krankenhausaufenthaltsdauer",
     "Length of Stay"
   ],
-  "publication_date": "2023-03-23",
-  "version": "2023-03-23",
+  "publication_date": "2023-03-30",
+  "version": "2023-03-30",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
