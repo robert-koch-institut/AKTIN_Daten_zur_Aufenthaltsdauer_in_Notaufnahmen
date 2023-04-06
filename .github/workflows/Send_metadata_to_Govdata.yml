@@ -1,0 +1,41 @@
+name: Send metadata to Govdata
+on:
+  push:
+    paths:
+      - 'Metadaten/**.ttl'
+jobs:
+  myJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Copy ttl to file with reponame
+        run: cp Metadaten/govdata.ttl Metadaten/${{ github.event.repository.name }}.ttl
+        
+      - name: Pushes test file
+        id: pushStep1
+        continue-on-error: true
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.GH_TOKEN }}
+        with:
+          source_file: 'Metadaten/${{ github.event.repository.name }}.ttl'
+          destination_repo: 'robert-koch-institut/Metadaten_fuer_GovData'
+          destination_folder: 'Datensaetze'
+          commit_message: 'adding ${{ github.event.repository.name }}.ttl'
+          user_email: ${{ secrets.GH_MAIL }}
+          user_name: RKIOpenData
+          
+      - name: Pushes test file
+        id: pushStep2
+        if: steps.pushStep1.outcome == 'failure'
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.GH_TOKEN }}
+        with:
+          source_file: 'Metadaten/${{ github.event.repository.name }}.ttl'
+          destination_repo: 'robert-koch-institut/Metadaten_fuer_GovData'
+          destination_folder: 'Datensaetze'
+          commit_message: 'adding ${{ github.event.repository.name }}.ttl'
+          user_email: ${{ secrets.GH_MAIL }}
+          user_name: RKIOpenData

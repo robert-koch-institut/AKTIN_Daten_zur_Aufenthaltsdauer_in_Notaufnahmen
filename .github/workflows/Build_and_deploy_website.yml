@@ -1,4 +1,4 @@
-name: Bulild and deploy OpenData website
+name: Build and deploy OpenData-Website
 
 on:
   workflow_dispatch:
