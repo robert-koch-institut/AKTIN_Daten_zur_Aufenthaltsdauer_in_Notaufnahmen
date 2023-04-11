@@ -3,7 +3,7 @@ name: Build and deploy OpenData-Website
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Release new version on Github and Zenodo"]
+    workflows: ["Create release on tag push"]
     types:
       - completed
 
