@@ -1,132 +1,123 @@
 {
   "resource": {
+    "classification": {
+      "type": "Dataset"
+    },
     "collection": [
       "Robert Koch-Institut"
     ],
-    "ids": [
-      {
-        "identifier": "Currently/no/DOI/available",
-        "type": "DOI",
-        "resource_type_general": "Dataset",
-        "relation_type": "A references B"
-      },
-      {
-        "identifier": "https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen",
-        "relation_type": "A references B",
-        "type": "URL",
-        "resource_type_general": "Dataset"
-      }
-    ],
-    "provenance": {
-      "data_source": "Automatically uploaded: Other"
-    },
-    "resource_classification": {
-      "resource_type": "Dataset",
-      "resource_type_general": "Dataset"
-    },
-    "resource_description_english": {
-      "language": "EN (English)",
-      "text": "no english description available"
-    },
-    "resource_descriptions_non_english": [
+    "descriptions": [
       {
         "language": "DE (German)",
         "text": "Die Belastung von Notaufnahmen hängt von verschiedenen Faktoren ab, wie z.B. der Anzahl der Patienti:innen, der Schwere ihrer Fälle, der Personalsituation und der Kapazität der Intensivbetten. Die durchschnittliche Aufenthaltsdauer in der Notaufnahme kann als Indikator für die Belastungssituation herangezogen werden.\nDer Datensatz „AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen“ enthält aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister. Zur Erfassung der speziellen Belastungssituation während der COVID-19-Pandemie werden im vorliegenden Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patienti:innen in den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie verglichen."
       }
     ],
-    "resource_keywords": [
+    "titles": [
       {
-        "resource_keywords_label": "Germany"
-      },
-      {
-        "resource_keywords_label": "Open Data"
-      },
-      {
-        "resource_keywords_label": "RKI"
-      },
-      {
-        "resource_keywords_label": "Deutschland"
-      },
-      {
-        "resource_keywords_label": "AKTIN"
-      },
-      {
-        "resource_keywords_label": "Emergency Treatments"
-      },
-      {
-        "resource_keywords_label": "Notaufnahmesurveillance"
-      },
-      {
-        "resource_keywords_label": "Sentinel-Ueberwachung"
-      },
-      {
-        "resource_keywords_label": "Sentinel Surveillance"
-      },
-      {
-        "resource_keywords_label": "Notfallambulanz, Krankenhaus-"
-      },
-      {
-        "resource_keywords_label": "Hospital Emergency Services"
-      },
-      {
-        "resource_keywords_label": "Krankenhausaufenthaltsdauer"
-      },
-      {
-        "resource_keywords_label": "Length of Stay"
-      },
-      {
-        "resource_keywords_label": "Gesundheitsberichterstattung",
-        "resource_keywords_label_code": "info:ddc/22/de//614.42"
-      },
-      {
-        "resource_keywords_label": "Public health surveillance",
-        "resource_keywords_label_code": "info:ddc/22/eng//614.42"
+        "language": "DE (German)",
+        "text": "AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen"
       }
     ],
-    "resource_languages": [
+    "ids": [
+      {
+        "identifier": "10.5281/zenodo.10224865",
+        "typeGeneral": "Dataset",
+        "relationType": "A references B"
+      },
+      {
+        "identifier": "https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen",
+        "relationType": "A references B",
+        "typeGeneral": "Dataset"
+      }
+    ],
+    "provenance": {
+      "dataSource": "Automatically uploaded: Other"
+    },
+    "keywords": [
+      {
+        "label": "Germany"
+      },
+      {
+        "label": "Open Data"
+      },
+      {
+        "label": "RKI"
+      },
+      {
+        "label": "Deutschland"
+      },
+      {
+        "label": "AKTIN"
+      },
+      {
+        "label": "Emergency Treatments"
+      },
+      {
+        "label": "Notaufnahmesurveillance"
+      },
+      {
+        "label": "Sentinel-Ueberwachung"
+      },
+      {
+        "label": "Sentinel Surveillance"
+      },
+      {
+        "label": "Notfallambulanz, Krankenhaus-"
+      },
+      {
+        "label": "Hospital Emergency Services"
+      },
+      {
+        "label": "Krankenhausaufenthaltsdauer"
+      },
+      {
+        "label": "Length of Stay"
+      },
+      {
+        "label": "Gesundheitsberichterstattung",
+        "code": "info:ddc/22/de//614.42"
+      },
+      {
+        "label": "Public health surveillance",
+        "code": "info:ddc/22/eng//614.42"
+      }
+    ],
+    "languages": [
       "DE (German)"
     ],
-    "resource_non_study_details": {
-      "resource_use_rights": {
-        "resource_use_rights_confirmations": {
-          "resource_use_rights_confirmation_authority": true,
-          "resource_use_rights_confirmation_irrevocability": true,
-          "resource_use_rights_confirmation_terms": true,
-          "resource_use_rights_support_by_licensing": true
+    "nonStudyDetails": {
+      "useRights": {
+        "confirmations": {
+          "authority": true,
+          "irrevocability": true,
+          "terms": true,
+          "supportByLicensing": true
         },
-        "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
+        "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "resource_version": "2023-11-23"
+      "version": "2023-11-30"
     },
-    "resource_titles": [
+    "webpage": "https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/",
+    "contributors": [
       {
-        "text": "AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen",
-        "language": "DE (German)"
-      }
-    ],
-    "resource_web_page": "https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/",
-    "roles": [
-      {
-        "role_affiliations": [
+        "affiliations": [
           {
-            "role_affiliation_name": "AKTIN-Notaufnahmeregister"
+            "name": "AKTIN-Notaufnahmeregister"
           }
         ],
-        "role_name_organisational_group_type": "Creator/Author",
-        "role_name_type": "Organisational",
-        "role_name_organisational_group_name": "AKTIN-Notaufnahmeregister",
-        "role_phone": ""
+        "groupType": "Creator/Author",
+        "nameType": "Organisational",
+        "groupName": "AKTIN-Notaufnahmeregister"
       },
       {
-        "role_affiliations": [
+        "affiliations": [
           {
-            "role_affiliation_name": "Robert Koch-Institut"
+            "name": "Robert Koch-Institut"
           }
         ],
-        "role_name_organisational_group_type": "Creator/Author",
-        "role_name_type": "Organisational",
-        "role_name_organisational_group_name": "Robert Koch-Institut",
-        "role_phone": ""
+        "groupType": "Creator/Author",
+        "nameType": "Organisational",
+        "groupName": "Robert Koch-Institut"
       }
     ]
   }
