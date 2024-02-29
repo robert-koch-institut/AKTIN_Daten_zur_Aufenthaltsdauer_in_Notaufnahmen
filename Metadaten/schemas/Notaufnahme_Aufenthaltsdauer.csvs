@@ -1,0 +1,9 @@
+version 1.1
+@totalColumns 7
+date: regex("[0-9]{4}-W[0-9]{2}")
+ed_count: range(10,*)
+visit_mean: regex("[0-9]+|([0-9]+\.([0-9]+))")
+los_mean: regex("[0-9]+|([0-9]+\.([0-9]+))")
+los_reference: regex("[0-9]+|([0-9]+\.([0-9]+))")
+los_difference: regex("[-]?[0-9]+|([-]?[0-9]+\.([0-9]+))")
+change: any("Zunahme", "Abnahme")
