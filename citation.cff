@@ -36,8 +36,8 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.10842763
-version: '2024-03-20T10:13:17+01:00'
+doi: 10.5281/zenodo.10843140
+version: '2024-03-20T10:49:38+01:00'
 authors:
   - name: AKTIN-Notaufnahmeregister
   - name: Robert Koch-Institut
