@@ -15,7 +15,7 @@ abstract: >-
   Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patienti:innen in
   den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie
   verglichen.
-date-released: '2024-06-10'
+date-released: '2024-06-13'
 keywords:
   - Germany
   - Open Data
@@ -36,8 +36,8 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.11544472
-version: '2024-06-10T10:10:52+02:00'
+doi: 10.5281/zenodo.11631631
+version: '2024-06-13T08:10:09+02:00'
 authors:
   - name: AKTIN-Notaufnahmeregister
   - name: Robert Koch-Institut
