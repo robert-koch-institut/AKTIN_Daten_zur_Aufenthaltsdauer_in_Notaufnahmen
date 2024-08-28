@@ -1,0 +1,63 @@
+{
+  "fields": [
+    {
+      "name": "date",
+      "type": "string",
+      "description": "Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format",
+      "constraints": {
+        "pattern": "[0-9]{4}-W[0-9]{2}"
+      }
+    },
+    {
+      "name": "ed_count",
+      "type": "integer",
+      "description": "Anzahl meldender Notaufnahmen in der Berichtswoche",
+      "constraints": {
+        "minimum": 10
+      }
+    },
+    {
+      "name": "visit_mean",
+      "type": "number",
+      "description": "Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "los_mean",
+      "type": "number",
+      "description": "Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "los_reference",
+      "type": "number",
+      "description": "Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "los_difference",
+      "type": "string",
+      "description": "Abweichung der los_mean von der los_reference",
+      "constraints": {
+        "pattern": "[-]?[0-9]+|([-]?[0-9]+\\.([0-9]+))"
+      }
+    },
+    {
+      "name": "change",
+      "type": "string",
+      "description": "Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme.",
+      "constraints": {
+        "enum": [
+          "Zunahme",
+          "Abnahme"
+        ]
+      }
+    }
+  ]
+}

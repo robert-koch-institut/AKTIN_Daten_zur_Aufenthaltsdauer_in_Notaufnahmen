@@ -1,0 +1,16 @@
+{
+  "name": "aktin_daten_zur_aufenthaltsdauer_in_notaufnahmen",
+  "title": "AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "notaufnahme_aufenthaltsdauer",
+      "type": "table",
+      "path": "../../Notaufnahme_Aufenthaltsdauer.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json"
+    }
+  ]
+}

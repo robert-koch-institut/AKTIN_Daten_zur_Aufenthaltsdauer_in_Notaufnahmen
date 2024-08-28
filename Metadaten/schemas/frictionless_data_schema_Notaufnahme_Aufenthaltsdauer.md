@@ -1,0 +1,9 @@
+| Variable       | Typ     | Ausprägungen                                 | Beschreibung                                                                                              |
+|:---------------|:--------|:---------------------------------------------|:----------------------------------------------------------------------------------------------------------|
+| date           | string  | Format: `[0-9]{4}-W[0-9]{2}`                 | Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format                                           |
+| ed_count       | integer | Minimum: 10                                  | Anzahl meldender Notaufnahmen in der Berichtswoche                                                        |
+| visit_mean     | number  | Minimum: 0                                   | Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen    |
+| los_mean       | number  | Minimum: 0                                   | Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten                             |
+| los_reference  | number  | Minimum: 0                                   | Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019                  |
+| los_difference | string  | Format: `[-]?[0-9]+\|([-]?[0-9]+\.([0-9]+))` | Abweichung der los_mean von der los_reference                                                             |
+| change         | string  | `Zunahme`, `Abnahme`                         | Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme. |
