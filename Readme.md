@@ -80,7 +80,7 @@ Die Daten enthalten folgende Variablen mit ihren entsprechenden Ausprägungen:
 | - | - | - | - |
 |date|Datum|`yyyy-Www`|Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format|
 |ed_count|Ganze Zahl|`>10`|Anzahl meldender Notaufnahmen in der Berichtswoche|
-|visits_mean | Dezimalzahl |`>0` |Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen | 
+|visit_mean | Dezimalzahl |`>0` |Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen | 
 |los_mean|Dezimalzahl|`>0`|Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten|
 |los_reference|Dezimalzahl|`>0`|Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019|
 |los_difference|Dezimalzahl||Abweichung der los_mean von der los_reference|

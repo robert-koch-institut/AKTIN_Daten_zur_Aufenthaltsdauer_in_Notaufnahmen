@@ -3,7 +3,8 @@
     {
       "name": "date",
       "type": "date",
-      "description": "Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format"
+      "description": "Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format",
+      "format": "%Y-W%U"
     },
     {
       "name": "ed_count",
@@ -48,10 +49,8 @@
       "description": "Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme.",
       "constraints": {
         "enum": [
-          [
             "Zunahme",
             "Abnahme"
-          ]
         ]
       }
     }
