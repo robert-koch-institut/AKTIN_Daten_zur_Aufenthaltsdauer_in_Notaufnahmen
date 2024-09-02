@@ -1,0 +1,56 @@
+{
+  "fields": [
+    {
+      "name": "date",
+      "type": "string",
+      "constraints": {
+        "pattern": "[0-9]{4}-W[0-9]{2}"
+      }
+    },
+    {
+      "name": "ed_count",
+      "type": "integer",
+      "constraints": {
+        "minimum": 10
+      }
+    },
+    {
+      "name": "visit_mean",
+      "type": "number",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "los_mean",
+      "type": "number",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "los_reference",
+      "type": "number",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "los_difference",
+      "type": "string",
+      "constraints": {
+        "pattern": "[-]?[0-9]+|([-]?[0-9]+\\.([0-9]+))"
+      }
+    },
+    {
+      "name": "change",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "Zunahme",
+          "Abnahme"
+        ]
+      }
+    }
+  ]
+}
