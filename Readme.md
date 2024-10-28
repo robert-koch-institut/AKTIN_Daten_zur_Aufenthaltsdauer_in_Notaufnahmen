@@ -76,15 +76,18 @@ Die Datei "Notaufnahme_Aufenthaltsdauer.csv" enthält die Daten zur durchschnitt
 
 Die Daten enthalten folgende Variablen mit ihren entsprechenden Ausprägungen:  
 
-|Variable|Typ|Ausprägung|Erläuterung|
-| - | - | - | - |
-|date|Datum|`yyyy-Www`|Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format|
-|ed_count|Ganze Zahl|`>10`|Anzahl meldender Notaufnahmen in der Berichtswoche|
-|visit_mean | Dezimalzahl |`>0` |Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen | 
-|los_mean|Dezimalzahl|`>0`|Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten|
-|los_reference|Dezimalzahl|`>0`|Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019|
-|los_difference|Dezimalzahl||Abweichung der los_mean von der los_reference|
-|change|Text|`Zunahme`, `Abnahme`|Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme.|
+| Variable       | Typ     | Ausprägungen                | Beschreibung                                                                                              |
+|:---------------|:--------|:----------------------------|:----------------------------------------------------------------------------------------------------------|
+| date           | date    | Format: `YYYY-Www`          | Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format                                           |
+| ed_count       | integer | Minimum: 11                 | Anzahl meldender Notaufnahmen in der Berichtswoche                                                        |
+| visit_mean     | number  | Minimum: 1                  | Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen    |
+| los_mean       | number  | Minimum: 1                  | Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten                             |
+| los_reference  | number  | Minimum: 1                  | Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019                  |
+| los_difference | number  |                             | Abweichung der los_mean von der los_reference                                                             |
+| change         | string  | Werte: `Zunahme`, `Abnahme` | Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme. |
+
+Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json`](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json).
+
 
 #### Formatierung der Daten  
 
