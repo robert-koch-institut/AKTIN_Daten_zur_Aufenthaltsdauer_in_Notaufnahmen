@@ -76,6 +76,12 @@ Die Datei "Notaufnahme_Aufenthaltsdauer.csv" enthält die Daten zur durchschnitt
 
 Die Daten enthalten folgende Variablen mit ihren entsprechenden Ausprägungen:  
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Notaufnahme_Aufenthaltsdauer", "lang": "de"} -->
+
+Die [Notaufnahme_Aufenthaltsdauer.csv](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Notaufnahme_Aufenthaltsdauer.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json) hinterlegt:
+> [frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable       | Typ     | Ausprägungen                | Beschreibung                                                                                              |
 |:---------------|:--------|:----------------------------|:----------------------------------------------------------------------------------------------------------|
 | date           | date    | Format: `YYYY-Www`          | Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format                                           |
@@ -86,11 +92,13 @@ Die Daten enthalten folgende Variablen mit ihren entsprechenden Ausprägungen:
 | los_difference | number  |                             | Abweichung der los_mean von der los_reference                                                             |
 | change         | string  | Werte: `Zunahme`, `Abnahme` | Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme. |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json`](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json).
 
 
 #### Formatierung der Daten  
