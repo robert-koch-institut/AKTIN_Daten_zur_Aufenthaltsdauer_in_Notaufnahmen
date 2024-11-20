@@ -74,11 +74,9 @@ Die Datei "Notaufnahme_Aufenthaltsdauer.csv" enthält die Daten zur durchschnitt
 
 #### Variablen und Variablenausprägungen
 
-Die Daten enthalten folgende Variablen mit ihren entsprechenden Ausprägungen:  
-
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Notaufnahme_Aufenthaltsdauer", "lang": "de"} -->
 
-Die [Notaufnahme_Aufenthaltsdauer.csv](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Notaufnahme_Aufenthaltsdauer.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json) hinterlegt:
+Die Datei [Notaufnahme_Aufenthaltsdauer.csv](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Notaufnahme_Aufenthaltsdauer.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json) hinterlegt:
 > [frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/frictionless_data_schema_Notaufnahme_Aufenthaltsdauer.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -95,10 +93,6 @@ Die [Notaufnahme_Aufenthaltsdauer.csv](https://github.com/robert-koch-institut/A
 <!-- DATA_SCHEMA_TABLE_END -->
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
-
-
-
-
 
 
 #### Formatierung der Daten  
