@@ -27,8 +27,9 @@ Susanne Drynda<sup>1</sup>, Ronny Otto<sup>1</sup>, Wiebke Schirrmeister<sup>1</
 
 -----
 **Zitieren**
-
-AKTIN-Notaufnahmeregister und Robert Koch-Institut (2024): AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen, Berlin: Zenodo. DOI: [10.5281/zenodo.14723182](https://doi.org/10.5281/zenodo.14723182)  
+<!-- CITATION_START: {"citation_style": "apa"} -->
+AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2025). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14723182](https://doi.org/10.5281/zenodo.14723182)
+<!-- CITATION_END -->
 
 ## Einleitung  
 
