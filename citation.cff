@@ -3,7 +3,7 @@ type: dataset
 title: AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen
 abstract: >-
   Die Belastung von Notaufnahmen hängt von verschiedenen Faktoren ab, wie z.B.
-  der Anzahl der Patienti:innen, der Schwere ihrer Fälle, der Personalsituation
+  der Anzahl der Patient:innen, der Schwere ihrer Fälle, der Personalsituation
   und der Kapazität der Intensivbetten. Die durchschnittliche Aufenthaltsdauer
   in der Notaufnahme kann als Indikator für die Belastungssituation herangezogen
   werden.
@@ -15,7 +15,7 @@ abstract: >-
   Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patienti:innen in
   den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie
   verglichen.
-date-released: '2025-02-13'
+date-released: '2025-02-20'
 keywords:
   - Germany
   - Open Data
@@ -36,8 +36,8 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.14865283
-version: '2025-02-13T13:33:27+01:00'
+doi: 10.5281/zenodo.14899253
+version: '2025-02-20T10:16:32+01:00'
 authors:
   - name: AKTIN-Notaufnahmeregister
   - name: Robert Koch-Institut
