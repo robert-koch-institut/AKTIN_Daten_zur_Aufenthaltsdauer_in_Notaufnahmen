@@ -31,6 +31,7 @@ Susanne Drynda<sup>1</sup>, Ronny Otto<sup>1</sup>, Wiebke Schirrmeister<sup>1</
 AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2025). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14769605](https://doi.org/10.5281/zenodo.14769605)
 <!-- CITATION_END -->
 
+
 ## Einleitung  
 
 Die Belastung von Notaufnahmen hängt von verschiedenen Faktoren ab, wie z.B. der Anzahl der Patienti:innen , der Schwere ihrer Fälle, der Personalsituation und der Kapazität der Intensivbetten. Die durchschnittliche Aufenthaltsdauer in der Notaufnahme kann als Indikator für die Belastungssituation herangezogen werden.  
