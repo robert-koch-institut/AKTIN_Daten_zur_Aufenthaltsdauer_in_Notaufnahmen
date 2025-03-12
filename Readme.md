@@ -43,7 +43,7 @@ Um die Belastungssituation in Notaufnahmen abzubilden, kann die durchschnittlich
 
 ### Administrative und organisatorische Angaben  
 
-Die Verarbeitung, Aufbereitung und Veröffentlichung der Daten erfolgen durch das [Fachgebiet MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data-Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:opendata@rki.de) gerichtet werden. Das Monitoring der Notaufnahme-spezifischen Datenqualität und etwaige Abstimmungen mit den Notaufnahmen erfolgt im AKTIN Trusted Data Analyzing Center (TDAC). Für den Kontakt und Koordination der teilnehmenden Notaufnahmen ist das AKTIN-Office verantwortlich. Bei Fragen kann sich an [office@aktin.org](mailto:office@aktin.org) gewendet wenden.
+Die Verarbeitung, Aufbereitung und Veröffentlichung der Daten erfolgen durch das [Fachgebiet MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data-Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:opendata@rki.de) gerichtet werden. Das Monitoring der Notaufnahme-spezifischen Datenqualität und etwaige Abstimmungen mit den Notaufnahmen erfolgt im AKTIN Trusted Data Analyzing Center (TDAC). Für den Kontakt und Koordination der teilnehmenden Notaufnahmen ist das AKTIN-Office verantwortlich. Bei Fragen kann sich an [office@aktin.org](mailto:office@aktin.org) gewendet wenden.
 
 ## Datenerhebung und Datenverarbeitung  
 
