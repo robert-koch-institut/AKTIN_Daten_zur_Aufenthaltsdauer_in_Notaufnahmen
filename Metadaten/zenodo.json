@@ -11,7 +11,50 @@
       "affiliation": "Robert Koch-Institut"
     }
   ],
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Drynda, Susanne",
+      "affiliation": "Otto-von-Guericke Universität Magdeburg",
+      "type": "Researcher",
+      "orcid": "0000-0002-5992-7578"
+    },
+    {
+      "name": "Otto, Ronny",
+      "affiliation": "Otto-von-Guericke Universität Magdeburg",
+      "type": "Researcher",
+      "orcid": "0000-0002-5914-1129"
+    },
+    {
+      "name": "Schirrmeister, Wiebke",
+      "affiliation": "Otto-von-Guericke Universität Magdeburg",
+      "type": "Researcher",
+      "orcid": "0000-0003-1861-8741"
+    },
+    {
+      "name": "Bienzeisler, Jonas",
+      "affiliation": "Universitätsklinik RWTH Aachen",
+      "type": "Researcher",
+      "orcid": "0000-0003-3633-147X"
+    },
+    {
+      "name": "Kombeiz, Alexander",
+      "affiliation": "Universitätsklinik RWTH Aachen",
+      "type": "Researcher",
+      "orcid": "0000-0001-9745-8576"
+    },
+    {
+      "name": "Schranz, Madlen",
+      "affiliation": "Robert Koch-Institut",
+      "type": "Researcher",
+      "orcid": "0000-0002-2426-5770"
+    },
+    {
+      "name": "Kocher, Theresa",
+      "affiliation": "Robert Koch-Institut",
+      "type": "Researcher",
+      "orcid": "0000-0001-8958-4150"
+    }
+  ],
   "keywords": [
     "Germany",
     "Open Data",
@@ -27,8 +70,8 @@
     "Krankenhausaufenthaltsdauer",
     "Length of Stay"
   ],
-  "publication_date": "2025-03-27",
-  "version": "2025-03-27",
+  "publication_date": "2025-04-03",
+  "version": "2025-04-03",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -50,8 +93,8 @@
   ],
   "dates": [
     {
-      "start": "2025-03-27T08:10:10+01:00",
-      "end": "2025-03-27T08:10:10+01:00",
+      "start": "2025-04-03T08:10:08+02:00",
+      "end": "2025-04-03T08:10:08+02:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
