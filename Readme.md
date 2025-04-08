@@ -1,29 +1,23 @@
 Datensatzdokumentation
-# AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen  
+# AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen    
 
-**[AKTIN-Notaufnahmeregister](http://aktin.org)**  
-*<sup>1</sup> AKTIN-Geschäftsstelle und TDAC*  
-c/o Otto-von-Guericke Universität Magdeburg  
-Universitätsklinik für Unfallchirurgie  
-Leipziger Straße 44  
-39120 Magdeburg  
+<br>
+<br>
+<br>
 
-*<sup>2</sup> AKTIN-IT*  
-c/o Institut für medizinische Informatik  
-Uniklinik RWTH Aachen  
-Pauwelsstraße 30  
-52057 Aachen  
-  
-**[Robert Koch-Institut | RKI](http://www.rki.de)**  
-*<sup>3</sup> Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle*  
-*<sup>4</sup> Fachgebiet MF4 | Informations- und Forschungsdatenmanagement*  
-Nordufer 20  
-13353 Berlin  
+**[AKTIN-Notaufnahmeregister](http://aktin.org)**&sup1; und **[Robert Koch-Institut](http://www.rki.de)**
 
+<br>
 
-**Beitragende Personen**  
+**Beteiligte**  
+Susanne Drynda&sup1;, Ronny Otto&sup1;, Wiebke Schirrmeister&sup1;, Jonas Bienzeisler&sup2;, Alexander Kombeiz&sup2;, [Madlen Schranz](https://orcid.org/0000-0002-2426-5770)&sup3;, [Theresa Kocher](https://orcid.org/0000-0002-9300-6625)&#8308;
 
-Susanne Drynda<sup>1</sup>, Ronny Otto<sup>1</sup>, Wiebke Schirrmeister<sup>1</sup>, Jonas Bienzeisler<sup>2</sup>, Alexander Kombeiz<sup>2</sup>, [Madlen Schranz](https://orcid.org/0000-0002-2426-5770)<sup>3</sup>, [Theresa Kocher](https://orcid.org/0000-0002-9300-6625)<sup>4</sup>
+<br>
+
+&emsp;&emsp;&sup1; Otto-von-Guericke Universität Magdeburg | Medizinische Fakultät  
+&emsp;&emsp;&sup2; Universitätsklinik RWTH Aachen | Institut für medizinische Informatik   
+&emsp;&emsp;&sup3; Robert Koch-Institut | Fachgebiet 32     
+&emsp;&emsp;&#8308; Robert Koch-Institut | Fachgebiet MF2    
 
 -----
 **Zitieren**
