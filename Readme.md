@@ -1,30 +1,51 @@
-Datensatzdokumentation
-# AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen    
 
-<br>
-<br>
-<br>
+<!-- HEADER_START: {"lang": "de"} -->
 
-**[AKTIN-Notaufnahmeregister](http://aktin.org)**&sup1; und **[Robert Koch-Institut](http://www.rki.de)**
 
-<br>
+Dokumentation  
+# AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen
 
-**Beteiligte**  
-Susanne Drynda&sup1;, Ronny Otto&sup1;, Wiebke Schirrmeister&sup1;, Jonas Bienzeisler&sup2;, Alexander Kombeiz&sup2;, [Madlen Schranz](https://orcid.org/0000-0002-2426-5770)&sup3;, [Theresa Kocher](https://orcid.org/0000-0002-9300-6625)&#8308;
+<br> 
+<br> 
+<br> 
 
-<br>
+[**AKTIN-Notaufnahmeregister**](http://aktin.org/)&sup1;, & [**Robert Koch-Institut**](https://www.rki.de/)
 
-&emsp;&emsp;&sup1; Otto-von-Guericke Universität Magdeburg | Medizinische Fakultät  
-&emsp;&emsp;&sup2; Universitätsklinik RWTH Aachen | Institut für medizinische Informatik   
-&emsp;&emsp;&sup3; Robert Koch-Institut | Fachgebiet 32     
-&emsp;&emsp;&#8308; Robert Koch-Institut | Fachgebiet MF2    
+<br> 
 
------
-**Zitieren**
-<!-- CITATION_START: {"citation_style": "apa"} -->
+**Beitragende**   
+[Susanne Drynda](https://orcid.org/0000-0002-5992-7578)&sup1;, [Ronny Otto](https://orcid.org/0000-0002-5914-1129)&sup1;, [Wiebke Schirrmeister](https://orcid.org/0000-0003-1861-8741)&sup1;, [Jonas Bienzeisler](https://orcid.org/0000-0003-3633-147X)&sup2;, [Alexander Kombeiz](https://orcid.org/0000-0001-9745-8576)&sup2;, [Madlen Schranz](https://orcid.org/0000-0002-2426-5770)&sup3;, & [Theresa Kocher](https://orcid.org/0000-0001-8958-4150)&#8308;
+
+&emsp;&emsp;&sup1; [Otto-von-Guericke Universität Magdeburg](https://www.ovgu.de/) | [Medizinische Fakultät](https://www.med.ovgu.de/)  
+&emsp;&emsp;&sup2; [Universitätsklinik RWTH Aachen](https://www.ukaachen.de/) | [Institut für medizinische Informatik](https://www.ukaachen.de/kliniken-institute/institut-fuer-medizinische-informatik/imi-home/)  
+&emsp;&emsp;&sup3; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 32](https://www.rki.de/fg32)  
+&emsp;&emsp;&#8308; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet MF 2](https://www.rki.de/mf2)
+
+<br> 
+
+**Zitieren**  
 AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2025). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15187337](https://doi.org/10.5281/zenodo.15187337)
-<!-- CITATION_END -->
 
+<br>
+
+
+**Zusammenfassung**    
+Im Datensatz "AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen“ werden aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann die Belastungssituation von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine kontinuierliche und transparente Surveillance der Akutversorgungslage in deutschen Notaufnahmen. Dazu werden die aktuellen Daten mit einem Referenzmittelwert verglichen, um die Belastungssituation von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.
+
+<br>
+
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Einleitung](#einleitung)
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
+  - [Datenerhebung und Datenverarbeitung](#datenerhebung-und-datenverarbeitung)
+  - [Inhalt und Aufbau des Datensatzes](#inhalt-und-aufbau-des-datensatzes)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
+
+<br>
+
+<!-- HEADER_END -->
 
 ## Einleitung  
 
@@ -37,7 +58,7 @@ Um die Belastungssituation in Notaufnahmen abzubilden, kann die durchschnittlich
 
 ### Administrative und organisatorische Angaben  
 
-Die Verarbeitung, Aufbereitung und Veröffentlichung der Daten erfolgen durch das [Fachgebiet MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data-Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:opendata@rki.de) gerichtet werden. Das Monitoring der Notaufnahme-spezifischen Datenqualität und etwaige Abstimmungen mit den Notaufnahmen erfolgt im AKTIN Trusted Data Analyzing Center (TDAC). Für den Kontakt und Koordination der teilnehmenden Notaufnahmen ist das AKTIN-Office verantwortlich. Bei Fragen kann sich an [office@aktin.org](mailto:office@aktin.org) gewendet wenden.
+Die Verarbeitung, Aufbereitung und Veröffentlichung der Daten erfolgen durch das [Fachgebiet MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data-Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:opendata@rki.de) gerichtet werden. Das Monitoring der Notaufnahme-spezifischen Datenqualität und etwaige Abstimmungen mit den Notaufnahmen erfolgt im AKTIN Trusted Data Analyzing Center (TDAC). Für den Kontakt und Koordination der teilnehmenden Notaufnahmen ist das AKTIN-Office verantwortlich. Bei Fragen kann sich an [office@aktin.org](mailto:office@aktin.org) gewendet wenden.
 
 ## Datenerhebung und Datenverarbeitung  
 
