@@ -9,7 +9,7 @@
     "descriptions": [
       {
         "language": "DE (German)",
-        "text": "Die Belastung von Notaufnahmen hängt von verschiedenen Faktoren ab, wie z.B. der Anzahl der Patient:innen, der Schwere ihrer Fälle, der Personalsituation und der Kapazität der Intensivbetten. Die durchschnittliche Aufenthaltsdauer in der Notaufnahme kann als Indikator für die Belastungssituation herangezogen werden.\nDer Datensatz „AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen“ enthält aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister. Zur Erfassung der speziellen Belastungssituation während der COVID-19-Pandemie werden im vorliegenden Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patienti:innen in den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie verglichen."
+        "text": "Im Datensatz \"AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen“ werden aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann die Belastungssituation von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine kontinuierliche und transparente Surveillance der Akutversorgungslage in deutschen Notaufnahmen. Dazu werden die aktuellen Daten mit einem Referenzmittelwert verglichen, um die Belastungssituation von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert."
       }
     ],
     "titles": [
@@ -20,7 +20,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.16977394",
+        "identifier": "10.5281/zenodo.17051822",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -97,7 +97,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2025-08-28"
+      "version": "2025-09-04"
     },
     "webpage": "https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/",
     "contributors": [
