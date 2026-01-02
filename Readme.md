@@ -3,6 +3,7 @@
 
 
 Dokumentation  
+
 # AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen
 
 <br> 
@@ -24,7 +25,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2025). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18113563](https://doi.org/10.5281/zenodo.18113563)
+AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2026). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18113563](https://doi.org/10.5281/zenodo.18113563)
 
 <br>
 
@@ -34,13 +35,14 @@ Im Datensatz "AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen“ werden agg
 
 <br>
 
-**Inhaltsverzeichnis** 
+**Inhaltsverzeichnis**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Einleitung](#einleitung)
-  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
-  - [Datenerhebung und Datenverarbeitung](#datenerhebung-und-datenverarbeitung)
-  - [Inhalt und Aufbau des Datensatzes](#inhalt-und-aufbau-des-datensatzes)
-  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Einleitung](#einleitung)  
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)  
+  - [Datenerhebung und Datenverarbeitung](#datenerhebung-und-datenverarbeitung)  
+  - [Inhalt und Aufbau des Datensatzes](#inhalt-und-aufbau-des-datensatzes)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
 <!-- TOC_END -->
 
 <br>
@@ -97,15 +99,15 @@ Die Datei [Notaufnahme_Aufenthaltsdauer.csv](https://github.com/robert-koch-inst
 > [tableschema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/tableschema_Notaufnahme_Aufenthaltsdauer.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable       | Typ     | Ausprägungen                | Beschreibung                                                                                              |
-|:---------------|:--------|:----------------------------|:----------------------------------------------------------------------------------------------------------|
-| date           | date    | Format: `YYYY-Www`          | Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format                                           |
-| ed_count       | integer | Werte: `≥11`                | Anzahl meldender Notaufnahmen in der Berichtswoche                                                        |
-| visit_mean     | number  | Werte: `≥1`                 | Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen    |
-| los_mean       | number  | Werte: `≥1`                 | Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten                             |
-| los_reference  | number  | Werte: `≥1`                 | Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019                  |
-| los_difference | number  |                             | Abweichung der los_mean von der los_reference                                                             |
-| change         | string  | Werte: `Zunahme`, `Abnahme` | Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme. |
+| Variable       | Typ     | Ausprägungen                   | Beschreibung                                                                                              |
+|:---------------|:--------|:-------------------------------|:----------------------------------------------------------------------------------------------------------|
+| date           | date    | Format: `YYYY-Www`             | Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format                                           |
+| ed_count       | integer | Werte: `≥11`                   | Anzahl meldender Notaufnahmen in der Berichtswoche                                                        |
+| visit_mean     | number  | Werte: `≥1`                    | Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen    |
+| los_mean       | number  | Werte: `≥1`                    | Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten                             |
+| los_reference  | number  | Werte: `≥1`                    | Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019                  |
+| los_difference | number  |                                | Abweichung der los_mean von der los_reference                                                             |
+| change         | string  | Werte:<br>`Zunahme`, `Abnahme` | Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme. |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -130,7 +132,7 @@ Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten b
 
 > [Metadaten/](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/zenodo.json)  
 
@@ -141,8 +143,8 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```    
@@ -171,6 +173,8 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 - https://github.com/robert-koch-institut  
 - https://gitlab.opencode.de/robert-koch-institut  
 - https://edoc.rki.de/  
+
+
  
 ### Lizenz  
 
