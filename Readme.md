@@ -25,7 +25,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2026). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18334665](https://doi.org/10.5281/zenodo.18334665)
+AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2026). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18410433](https://doi.org/10.5281/zenodo.18410433)
 
 <br>
 
