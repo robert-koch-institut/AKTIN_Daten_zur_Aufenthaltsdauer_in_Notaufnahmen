@@ -46,7 +46,7 @@
     {
       "name": "change",
       "type": "string",
-      "description": "Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme.",
+      "description": "Interpretation der Variable \"los_difference\". Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme.",
       "constraints": {
         "enum": [
           "Zunahme",
