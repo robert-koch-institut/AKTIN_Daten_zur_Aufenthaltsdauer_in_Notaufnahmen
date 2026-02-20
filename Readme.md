@@ -104,11 +104,11 @@ Die Datei [Notaufnahme_Aufenthaltsdauer.csv](https://github.com/robert-koch-inst
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable       | Typ     | Ausprägungen                   | Beschreibung                                                                                              |
 |:---------------|:--------|:-------------------------------|:----------------------------------------------------------------------------------------------------------|
-| date           | date    | Format: `YYYY-Www`             | Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format                                           |
-| ed_count       | integer | Werte: `≥11`                   | Anzahl meldender Notaufnahmen in der Berichtswoche                                                        |
-| visit_mean     | number  | Werte: `≥1`                    | Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen    |
-| los_mean       | number  | Werte: `≥1`                    | Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten                             |
-| los_reference  | number  | Werte: `≥1`                    | Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019                  |
+| date           | date    | Format:<br>`YYYY-Www`          | Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format                                           |
+| ed_count       | integer | Werte:<br>`≥11`                | Anzahl meldender Notaufnahmen in der Berichtswoche                                                        |
+| visit_mean     | number  | Werte:<br>`≥1`                 | Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen    |
+| los_mean       | number  | Werte:<br>`≥1`                 | Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten                             |
+| los_reference  | number  | Werte:<br>`≥1`                 | Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019                  |
 | los_difference | number  |                                | Abweichung der los_mean von der los_reference                                                             |
 | change         | string  | Werte:<br>`Zunahme`, `Abnahme` | Interpretation der Variable "los_difference". Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme. |
 
