@@ -25,13 +25,15 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->  
 AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2026). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18692740](https://doi.org/10.5281/zenodo.18692740)
+<!-- CITATION_END -->
+
 
 <br>
 
-
 **Zusammenfassung**    
-Im Datensatz "AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen“ werden aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann die Belastungssituation von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine kontinuierliche und transparente Surveillance der Akutversorgungslage in deutschen Notaufnahmen. Dazu werden die aktuellen Daten mit einem Referenzmittelwert verglichen, um die Belastungssituation von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.
+Im Datensatz "AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen" werden aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann die Belastungssituation von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine kontinuierliche und transparente Surveillance der Akutversorgungslage in deutschen Notaufnahmen. Dazu werden die aktuellen Daten mit einem Referenzmittelwert verglichen, um die Belastungssituation von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.
 
 <br>
 
@@ -51,12 +53,12 @@ Im Datensatz "AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen“ werden agg
 
 ## Einleitung  
 
-Die Belastung von Notaufnahmen hängt von verschiedenen Faktoren ab, wie z.B. der Anzahl der Patienti:innen , der Schwere ihrer Fälle, der Personalsituation und der Kapazität der Intensivbetten. Die durchschnittliche Aufenthaltsdauer in der Notaufnahme kann als Indikator für die Belastungssituation herangezogen werden.  
-Der Datensatz „AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen“ enthält aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister. Zur Erfassung der speziellen Belastungssituation während der COVID-19-Pandemie werden im vorliegenden Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patienti:innen in den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie verglichen.
+Die Belastung von Notaufnahmen hängt von verschiedenen Faktoren ab, wie z.B. der Anzahl der Patient:innen , der Schwere ihrer Fälle, der Personalsituation und der Kapazität der Intensivbetten. Die durchschnittliche Aufenthaltsdauer in der Notaufnahme kann als Indikator für die Belastungssituation herangezogen werden.  
+Der Datensatz "AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen" enthält aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister. Zur Erfassung der speziellen Belastungssituation während der COVID-19-Pandemie werden im vorliegenden Datensatz Daten zur durchschnittliche Aufenthaltsdauer von Patient:innen in den Notaufnahmen bereitgestellt und mit den Werten vor der Pandemie verglichen.
 
 ## Informationen zum Datensatz und Entstehungskontext  
 
-Um die Belastungssituation in Notaufnahmen abzubilden, kann die durchschnittliche Aufenthaltsdauer in der Notaufnahme innerhalb der letzten Woche als „Surrogatparameter“ herangezogen werden. In die Berechnung der Aufenthaltsdauer (length of stay, LOS) fließt der erste dokumentierte Kontakt in der Notaufnahme (in der Regel der Zeitpunkt der administrativen Aufnahme) und der Zeitpunkt der Entlassung aus der Notaufnahme ein. Um die spezielle Belastungssituation während der COVID-19-Pandemie abzubilden, wird die durchschnittliche Aufenthaltsdauer der jeweils letzten Wochen mit der durchschnittlichen Aufenthaltsdauer vor der Pandemie ins Verhältnis gesetzt. Dazu wird ein gewichteter Mittelwert mit Daten aus den Jahren 2017 bis 2019 berechnet. Eine längere Aufenthaltsdauer (im Vergleich zum gewichteten vor-pandemischen Mittelwert) weist auf eine höhere Belastung und eine kürzere auf eine geringere Belastung hin. 
+Um die Belastungssituation in Notaufnahmen abzubilden, kann die durchschnittliche Aufenthaltsdauer in der Notaufnahme innerhalb der letzten Woche als "Surrogatparameter" herangezogen werden. In die Berechnung der Aufenthaltsdauer (length of stay, LOS) fließt der erste dokumentierte Kontakt in der Notaufnahme (in der Regel der Zeitpunkt der administrativen Aufnahme) und der Zeitpunkt der Entlassung aus der Notaufnahme ein. Um die spezielle Belastungssituation während der COVID-19-Pandemie abzubilden, wird die durchschnittliche Aufenthaltsdauer der jeweils letzten Wochen mit der durchschnittlichen Aufenthaltsdauer vor der Pandemie ins Verhältnis gesetzt. Dazu wird ein gewichteter Mittelwert mit Daten aus den Jahren 2017 bis 2019 berechnet. Eine längere Aufenthaltsdauer (im Vergleich zum gewichteten vor-pandemischen Mittelwert) weist auf eine höhere Belastung und eine kürzere auf eine geringere Belastung hin. 
 
 ### Administrative und organisatorische Angaben  
 
@@ -78,7 +80,7 @@ Unplausible Werte werden aus der Berechnung ausgeschlossen (LOS < 1 min, >24 h).
 
 Der Datensatz enthält aggregierte Daten aus der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen. Im Datensatz enthalten sind:
 
-- Aggregierte Daten zur Aufenthaltsdauer von Patienti:innen in teilnehmenden Notaufnahmen  
+- Aggregierte Daten zur Aufenthaltsdauer von Patient:innen in teilnehmenden Notaufnahmen  
 - Datensatzdokumentation in deutscher Sprache  
 - Lizenzdatei mit Daten-Nutzungsbedingungen  
 - Metadaten zum Datensatz  
@@ -96,18 +98,19 @@ Die Datei "Notaufnahme_Aufenthaltsdauer.csv" enthält die Daten zur durchschnitt
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Notaufnahme_Aufenthaltsdauer", "lang": "de"} -->
 
 Die Datei [Notaufnahme_Aufenthaltsdauer.csv](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Notaufnahme_Aufenthaltsdauer.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/tableschema_Notaufnahme_Aufenthaltsdauer.json) hinterlegt:
+
 > [tableschema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/tableschema_Notaufnahme_Aufenthaltsdauer.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable       | Typ     | Ausprägungen                   | Beschreibung                                                                                              |
 |:---------------|:--------|:-------------------------------|:----------------------------------------------------------------------------------------------------------|
-| date           | date    | Format: `YYYY-Www`             | Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format                                           |
-| ed_count       | integer | Werte: `≥11`                   | Anzahl meldender Notaufnahmen in der Berichtswoche                                                        |
-| visit_mean     | number  | Werte: `≥1`                    | Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen    |
-| los_mean       | number  | Werte: `≥1`                    | Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten                             |
-| los_reference  | number  | Werte: `≥1`                    | Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019                  |
+| date           | date    | Format:<br>`YYYY-Www`          | Berichtswoche der Daten der Aufenthaltsdauer im ISO-8106 Format                                           |
+| ed_count       | integer | Werte:<br>`≥11`                | Anzahl meldender Notaufnahmen in der Berichtswoche                                                        |
+| visit_mean     | number  | Werte:<br>`≥1`                 | Durchschnittliche Anzahl Vorstellungen in der Berichtswoche pro Notaufnahme, gerundet auf ganze Zahlen    |
+| los_mean       | number  | Werte:<br>`≥1`                 | Gewichtete durchschnittliche Aufenthaltsdauer in der Berichtswoche in Minuten                             |
+| los_reference  | number  | Werte:<br>`≥1`                 | Gewichteter Mittelwert der Aufenthaltsdauer, berechnet aus Daten der Jahre 2017 bis 2019                  |
 | los_difference | number  |                                | Abweichung der los_mean von der los_reference                                                             |
-| change         | string  | Werte:<br>`Zunahme`, `Abnahme` | Interpretation der Variable „los_difference“. Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme. |
+| change         | string  | Werte:<br>`Zunahme`, `Abnahme` | Interpretation der Variable "los_difference". Wenn los_difference < 0, dann Abnahme, andernfalls Zunahme. |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -116,15 +119,13 @@ Die Datei [Notaufnahme_Aufenthaltsdauer.csv](https://github.com/robert-koch-inst
 
 #### Formatierung der Daten  
 
-Die Notaufnahmesurveillance-Daten sind im Datensatz als kommaseparierte .csv-Datei enthalten. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.  
+Die Notaufnahmesurveillance-Daten sind im Datensatz als kommaseparierte .csv-Datei enthalten. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma `,`. Datumsangaben sind im ISO-8601-Standard formatiert.  
 
 - Zeichensatz: UTF-8  
 - Datumsformat: ISO 8601  
-- .csv-Trennzeichen: Komma ","  
+- .csv-Trennzeichen: Komma `,`  
 
 <!-- FOOTER_START: {"lang": "de"} -->
-
-
 
 ### Metadaten  
 
@@ -169,13 +170,13 @@ Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
 
 
- 
+
 ### Lizenz  
 
 Der Datensatz "AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
