@@ -1,21 +1,32 @@
 {
   "title": "AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen",
-  "description": "<p>Im Datensatz &quot;AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen“ werden aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann die Belastungssituation von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine kontinuierliche und transparente Surveillance der Akutversorgungslage in deutschen Notaufnahmen. Dazu werden die aktuellen Daten mit einem Referenzmittelwert verglichen, um die Belastungssituation von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.</p>\n",
+  "description": "<p>Im Datensatz \"AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen\" werden aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann die Belastungssituation von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine kontinuierliche und transparente Surveillance der Akutversorgungslage in deutschen Notaufnahmen. Dazu werden die aktuellen Daten mit einem Referenzmittelwert verglichen, um die Belastungssituation von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.</p>",
   "resource_type": {
     "id": "dataset"
   },
-  "publication_date": "2026-02-19",
+  "publication_date": "2026-04-16",
   "creators": [
     {
       "person_or_org": {
         "type": "organizational",
         "name": "AKTIN-Notaufnahmeregister"
-      }
+      },
+      "affiliations": [
+        {
+          "name": "Otto-von-Guericke Universität Magdeburg"
+        }
+      ]
     },
     {
       "person_or_org": {
         "type": "organizational",
-        "name": "Robert Koch-Institut"
+        "name": "Robert Koch-Institut",
+        "identifiers": [
+          {
+            "scheme": "ror",
+            "identifier": "01k5qnb77"
+          }
+        ]
       }
     }
   ],
@@ -171,10 +182,10 @@
     }
   ],
   "publisher": "Zenodo",
-  "version": "2026-02-19",
+  "version": "2026-04-16",
   "dates": [
     {
-      "date": "2026-02-19T08:10:12+01:00",
+      "date": "2026-04-16T08:10:12+02:00",
       "type": {
         "id": "created"
       },
@@ -242,21 +253,17 @@
     },
     {
       "subject": "Length of Stay"
+    },
+    {
+      "subject": "Gesundheitsberichterstattung"
+    },
+    {
+      "subject": "Public health surveillance"
     }
   ],
   "custom_fields": {
     "legacy:communities": [
       "robertkochinstitut"
-    ],
-    "legacy:subjects": [
-      {
-        "term": "Gesundheitsberichterstattung",
-        "identifier": "info:ddc/22/de//614.42"
-      },
-      {
-        "term": "Public health surveillance",
-        "identifier": "info:ddc/22/eng//614.42"
-      }
     ]
   }
 }

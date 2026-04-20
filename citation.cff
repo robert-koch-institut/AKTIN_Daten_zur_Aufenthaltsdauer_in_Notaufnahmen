@@ -1,17 +1,15 @@
 cff-version: 1.2.0
 type: dataset
 title: AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen
-abstract: >-
-  Im Datensatz &quot;AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen“ werden
-  aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher
-  Notaufnahmen aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der
-  Aufenthaltsdauer kann die Belastungssituation von Notaufnahmen abgeschätzt 
-  werden. Dies ermöglicht eine kontinuierliche und transparente Surveillance der
-  Akutversorgungslage in deutschen Notaufnahmen. Dazu werden die aktuellen Daten
-  mit einem Referenzmittelwert verglichen, um die Belastungssituation von
-  Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu
-  Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.
-date-released: '2026-02-19'
+abstract: Im Datensatz "AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen" werden
+  aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen
+  aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann
+  die Belastungssituation von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine
+  kontinuierliche und transparente Surveillance der Akutversorgungslage in deutschen
+  Notaufnahmen. Dazu werden die aktuellen Daten mit einem Referenzmittelwert verglichen,
+  um die Belastungssituation von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte
+  Angaben zu Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.
+date-released: '2026-04-16'
 keywords:
   - Germany
   - Open Data
@@ -29,12 +27,13 @@ keywords:
   - Gesundheitsberichterstattung
   - Public health surveillance
 message: Cite me!
-url: >-
-  https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/
+url: https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen
 license: CC-BY-4.0
-doi: 10.5281/zenodo.18692740
-version: '2026-02-19T08:10:12+01:00'
+doi: 10.5281/zenodo.19603020
+version: '2026-04-16T08:10:12+02:00'
 authors:
   - name: AKTIN-Notaufnahmeregister
+    website: http://aktin.org/
   - name: Robert Koch-Institut
     email: info@rki.de
+    website: https://www.rki.de/
