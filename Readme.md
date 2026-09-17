@@ -26,7 +26,7 @@ Dokumentation
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa", "markdown_style": "plain"} -->
-AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2026). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.22686243](https://doi.org/10.5281/zenodo.22686243)
+AKTIN-Notaufnahmeregister, & Robert Koch-Institut. (2026). AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.22806435](https://doi.org/10.5281/zenodo.22806435)
 <!-- CITATION_END -->
 
 
@@ -98,8 +98,6 @@ Die Datei "Notaufnahme_Aufenthaltsdauer.csv" enthält die Daten zur durchschnitt
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Notaufnahme_Aufenthaltsdauer", "lang": "de"} -->
 
 Die Datei [Notaufnahme_Aufenthaltsdauer.csv](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Notaufnahme_Aufenthaltsdauer.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/tableschema_Notaufnahme_Aufenthaltsdauer.json) hinterlegt:
-
-> [tableschema_Notaufnahme_Aufenthaltsdauer.json](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/Metadaten/schemas/tableschema_Notaufnahme_Aufenthaltsdauer.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable       | Typ     | Ausprägungen                   | Beschreibung                                                                                              |
@@ -181,5 +179,5 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 
 Der Datensatz "AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/LIZENZ) Datei des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, dass jede Person das Recht hat, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen/blob/main/LIZENZ) Datei des Datensatzes.  
 <!-- FOOTER_END -->

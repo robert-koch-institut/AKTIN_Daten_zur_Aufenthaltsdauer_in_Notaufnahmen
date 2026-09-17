@@ -1,15 +1,16 @@
 cff-version: 1.2.0
 type: dataset
 title: AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen
-abstract: Im Datensatz "AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen" werden
-  aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen
-  aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann
-  die Belastungssituation von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine
-  kontinuierliche und transparente Surveillance der Akutversorgungslage in deutschen
-  Notaufnahmen. Dazu werden die aktuellen Daten mit einem Referenzmittelwert verglichen,
-  um die Belastungssituation von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte
-  Angaben zu Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.
-date-released: '2026-09-10'
+abstract: >-
+  Im Datensatz "AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen" werden aggregierte
+  Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem
+  AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann die Belastungssituation
+  von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine kontinuierliche und transparente
+  Surveillance der Akutversorgungslage in deutschen Notaufnahmen. Dazu werden die
+  aktuellen Daten mit einem Referenzmittelwert verglichen, um die Belastungssituation
+  von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu Besuchszahlen,
+  mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.
+date-released: '2026-09-17'
 keywords:
   - Germany
   - Open Data
@@ -29,8 +30,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen
 license: CC-BY-4.0
-doi: 10.5281/zenodo.22686243
-version: '2026-09-10T11:04:29+02:00'
+doi: 10.5281/zenodo.22806435
+version: '2026-09-17'
 authors:
   - name: AKTIN-Notaufnahmeregister
     website: https://www.netzwerk-universitaetsmedizin.de/plattformen/aktin

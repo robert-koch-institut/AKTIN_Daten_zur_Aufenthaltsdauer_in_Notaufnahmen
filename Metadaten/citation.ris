@@ -1,0 +1,27 @@
+TY  - DATA
+AB  - Im Datensatz "AKTIN – Daten zur Aufenthaltsdauer in Notaufnahmen" werden aggregierte Daten der Routinedokumentation aus einer Auswahl deutscher Notaufnahmen aus dem AKTIN-Notaufnahmeregister bereitgestellt. Anhand der Aufenthaltsdauer kann die Belastungssituation von Notaufnahmen abgeschätzt  werden. Dies ermöglicht eine kontinuierliche und transparente Surveillance der Akutversorgungslage in deutschen Notaufnahmen. Dazu werden die aktuellen Daten mit einem Referenzmittelwert verglichen, um die Belastungssituation von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu Besuchszahlen, mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.
+AU  - AKTIN-Notaufnahmeregister
+AU  - Robert Koch-Institut
+DA  - 2026-09-17
+DO  - 10.5281/zenodo.22806435
+KW  - Germany
+KW  - Open Data
+KW  - RKI
+KW  - Deutschland
+KW  - AKTIN
+KW  - Emergency Treatments
+KW  - Notaufnahmesurveillance
+KW  - Sentinel-Ueberwachung
+KW  - Sentinel Surveillance
+KW  - Notfallambulanz, Krankenhaus-
+KW  - Hospital Emergency Services
+KW  - Krankenhausaufenthaltsdauer
+KW  - Length of Stay
+KW  - Gesundheitsberichterstattung
+KW  - Public health surveillance
+PY  - 2026
+TI  - AKTIN - Daten zur Aufenthaltsdauer in Notaufnahmen
+UR  - https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen
+ET  - 2026-09-17
+N1  - License: CC-BY-4.0
+ER  -
