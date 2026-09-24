@@ -10,7 +10,7 @@ abstract: >-
   aktuellen Daten mit einem Referenzmittelwert verglichen, um die Belastungssituation
   von Notaufnahmen zu erfassen. Der Datensatz enthält aggregierte Angaben zu Besuchszahlen,
   mittlerer Aufenthaltsdauer sowie Abweichungen vom Referenzwert.
-date-released: '2026-09-17'
+date-released: '2026-09-24'
 keywords:
   - Germany
   - Open Data
@@ -30,8 +30,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/AKTIN_Daten_zur_Aufenthaltsdauer_in_Notaufnahmen
 license: CC-BY-4.0
-doi: 10.5281/zenodo.22806435
-version: '2026-09-17'
+doi: 10.5281/zenodo.22931986
+version: '2026-09-24'
 authors:
   - name: AKTIN-Notaufnahmeregister
     website: https://www.netzwerk-universitaetsmedizin.de/plattformen/aktin
